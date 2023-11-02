@@ -30,3 +30,11 @@ jobs:
 
     - name: Render
       run: nix-shell --run "quarto render paper"
+
+    # Commit and push all changed files.
+    - name: GIT Commit Build Artifacts (coverage, dist, devdist, docs)
+      run: |
+        git config --global user.name "GA Bot"
+        git config --global user.email "github_actions@bot.noreply.com"
+        git commit -a -m "rendered file"
+        git push
