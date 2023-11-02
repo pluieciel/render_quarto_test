@@ -29,7 +29,7 @@ jobs:
         nix-build
 
     - name: Render
-      run: nix-shell --run "quarto render paper"
+      run: nix-shell --run "quarto render paper/paper.qmd"
 
     # Commit and push all changed files.
     - name: GIT Commit Build Artifacts (coverage, dist, devdist, docs)
