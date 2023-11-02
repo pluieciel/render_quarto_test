@@ -1,4 +1,4 @@
-name: Build book using Nix
+name: Render paper with Nix and Quarto
 
 on:
   push:
