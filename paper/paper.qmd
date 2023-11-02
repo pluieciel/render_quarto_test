@@ -1,0 +1,10 @@
+---
+title: "Quarto Basics"
+format: pdf
+---
+
+Best dataset ever:
+
+```{r}
+head(mtcars)
+```
