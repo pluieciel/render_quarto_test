@@ -8,3 +8,13 @@ Best dataset ever:
 ```{r}
 head(mtcars)
 ```
+
+But this one is not bad either:
+
+```{r}
+head(iris)
+```
+
+```{r}
+sessionInfo()
+```
