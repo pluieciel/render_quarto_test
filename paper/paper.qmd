@@ -6,7 +6,12 @@ format: pdf
 Best dataset ever:
 
 ```{r}
-head(mtcars)
+library(michelRodange)
+
+data(renert)
+
+names(renert) 
+
 ```
 
 But this one is not bad either:
