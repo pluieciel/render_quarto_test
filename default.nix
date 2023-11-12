@@ -7,7 +7,7 @@ let
   inherit (pkgs.texlive) scheme-small amsmath framed fvextra environ fontawesome5 orcidlink pdfcol tcolorbox tikzfill;
 });
  system_packages = builtins.attrValues {
-  inherit (pkgs) R glibcLocalesUtf8 quarto;
+  inherit (pkgs) R glibcLocalesUtf8 quarto michelRodange;
 };
   in
   pkgs.mkShell {
