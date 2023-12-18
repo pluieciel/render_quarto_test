@@ -3,6 +3,7 @@ let
  rpkgs = builtins.attrValues {
   inherit (pkgs.rPackages) quarto michelRodange;
 };
+
   tex = (pkgs.texlive.combine {
   inherit (pkgs.texlive) scheme-small amsmath framed fvextra environ fontawesome5 orcidlink pdfcol tcolorbox tikzfill;
 });
